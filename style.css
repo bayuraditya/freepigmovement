@@ -1,0 +1,13 @@
+* {
+  font-family: "Teko", sans-serif;
+}
+.rotate-270 {
+  transform: rotate(270deg);
+}
+@media only screen and (max-width: 540px) {
+  .card-mobile-width {
+    /* width: 10rem; */
+  }
+}
+.card-img-top:hover {
+}
