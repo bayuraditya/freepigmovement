@@ -11,3 +11,9 @@
 }
 .card-img-top:hover {
 }
+.tes {
+  font-weight: lighter;
+}
+a:hover {
+  color: orange !important;
+}
