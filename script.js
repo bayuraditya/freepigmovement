@@ -34,34 +34,34 @@ var thicknessRangeCM = thicknessRangeInch.value * 2.5;
 var countVolume = lengthRangeCM * widthRangeCM * thicknessRangeCM;
 var volume = countVolume * typeRange.value;
 var volumeLiter = volume / 1000;
-output.innerHTML = volumeLiter.toFixed(2);
+output.innerHTML = volumeLiter.toFixed(2) + " Liters";
 lengthRangeFeet.oninput = function () {
   var count = this.value * 30.5 * widthRangeInch.value * 2.5 * thicknessRangeInch.value * 2.5 * typeRange.value;
   var volumeLiter = (count / 1000).toFixed(2);
-  output.innerHTML = volumeLiter;
+  output.innerHTML = volumeLiter + " Liters";
   lengthOutput.innerHTML = this.value + "'";
 };
 
 widthRangeInch.oninput = function () {
   var count = this.value * 2.5 * lengthRangeFeet.value * 30.5 * thicknessRangeInch.value * 2.5 * typeRange.value;
   var volumeLiter = (count / 1000).toFixed(2);
-  widthOutput.innerHTML = this.value * 2.5;
-
-  output.innerHTML = volumeLiter;
+  output.innerHTML = volumeLiter + " Liters";
   widthOutput.innerHTML = this.value + '"';
 };
 thicknessRange.oninput = function () {
   var count = this.value * 2.5 * widthRangeInch.value * 2.5 * lengthRangeFeet.value * 30.5 * typeRange.value;
   var volumeLiter = (count / 1000).toFixed(2);
-  thicknessOutput.innerHTML = this.value * 2.5;
-
-  output.innerHTML = volumeLiter;
+  output.innerHTML = volumeLiter + " Liters";
   thicknessOutput.innerHTML = this.value + '"';
 };
 typeRange.oninput = function () {
+  console.log(typeRange.value);
+
   var count = this.value * widthRangeInch.value * 2.5 * thicknessRangeInch.value * 2.5 * lengthRangeFeet.value * 30.5;
   var volumeLiter = (count / 1000).toFixed(2);
-  // typeOutput.innerHTML = this.value * 2.5;
-
-  output.innerHTML = volumeLiter;
+  output.innerHTML = volumeLiter + " Liters";
 };
+
+// console.log(lengthRangeCM.value);
+// console.log(widthRangeCM.value);
+// console.log(thhicknessRangeCM.value);
