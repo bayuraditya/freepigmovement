@@ -16,7 +16,52 @@ if (x2.matches) {
   showUl();
 }
 
-// hiddenUl();
+//VOLUME CALCULATOR
+var lengthRangeFeet = document.getElementById("lengthRange");
+var widthRangeInch = document.getElementById("widthRange");
+var thicknessRangeInch = document.getElementById("thicknessRange");
+var typeRange = document.getElementById("typeRange");
+var output = document.getElementById("value");
 
-// navbarResponse(x1, x2); // Call listener function at run time
-// x.addListener(navbarResponse); // Attach listener function on state changes
+var lengthOutput = document.getElementById("lengthValue");
+var widthOutput = document.getElementById("widthValue");
+var thicknessOutput = document.getElementById("thicknessValue");
+// var typeOutput = document.getElementById("typeValue");
+
+var lengthRangeCM = lengthRangeFeet.value * 30.5;
+var widthRangeCM = widthRangeInch.value * 2.5;
+var thicknessRangeCM = thicknessRangeInch.value * 2.5;
+var countVolume = lengthRangeCM * widthRangeCM * thicknessRangeCM;
+var volume = countVolume * typeRange.value;
+var volumeLiter = volume / 1000;
+output.innerHTML = volumeLiter.toFixed(2);
+lengthRangeFeet.oninput = function () {
+  var count = this.value * 30.5 * widthRangeInch.value * 2.5 * thicknessRangeInch.value * 2.5 * typeRange.value;
+  var volumeLiter = (count / 1000).toFixed(2);
+  output.innerHTML = volumeLiter;
+  lengthOutput.innerHTML = this.value + "'";
+};
+
+widthRangeInch.oninput = function () {
+  var count = this.value * 2.5 * lengthRangeFeet.value * 30.5 * thicknessRangeInch.value * 2.5 * typeRange.value;
+  var volumeLiter = (count / 1000).toFixed(2);
+  widthOutput.innerHTML = this.value * 2.5;
+
+  output.innerHTML = volumeLiter;
+  widthOutput.innerHTML = this.value + '"';
+};
+thicknessRange.oninput = function () {
+  var count = this.value * 2.5 * widthRangeInch.value * 2.5 * lengthRangeFeet.value * 30.5 * typeRange.value;
+  var volumeLiter = (count / 1000).toFixed(2);
+  thicknessOutput.innerHTML = this.value * 2.5;
+
+  output.innerHTML = volumeLiter;
+  thicknessOutput.innerHTML = this.value + '"';
+};
+typeRange.oninput = function () {
+  var count = this.value * widthRangeInch.value * 2.5 * thicknessRangeInch.value * 2.5 * lengthRangeFeet.value * 30.5;
+  var volumeLiter = (count / 1000).toFixed(2);
+  // typeOutput.innerHTML = this.value * 2.5;
+
+  output.innerHTML = volumeLiter;
+};
