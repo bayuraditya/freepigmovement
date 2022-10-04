@@ -11,3 +11,18 @@
 a:hover {
   color: orange !important;
 }
+/* hp */
+@media screen and (max-width: 500px) {
+  .menu-card {
+    width: 10rem !important;
+  }
+  .modal-card {
+    width: 9rem !important;
+  }
+}
+/* pc */
+@media screen and (min-width: 500px) {
+  .menu-card {
+    width: 13rem !important;
+  }
+}
