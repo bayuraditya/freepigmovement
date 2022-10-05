@@ -38,10 +38,10 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle active mx-2" href="#" role="button" data-bs-toggle="dropdown"> SURFBOARD </a>
               <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="beginner.html">BEGINNER</a></li>
-                <li><a class="dropdown-item" href="intermediate.html">INTERMEDIATE</a></li>
-                <li><a class="dropdown-item" href="performance.html">PERFORMANCE</a></li>
-                <li><a class="dropdown-item" href="retro.html">RETRO</a></li>
+                <li><a class="dropdown-item" href="" data-bs-toggle="modal" data-bs-target="#beginnerModal">BEGINNER</a></li>
+                <li><a class="dropdown-item" href="" data-bs-toggle="modal" data-bs-target="#intermediateModal">INTERMEDIATE</a></li>
+                <li><a class="dropdown-item" href="" data-bs-toggle="modal" data-bs-target="#performanceModal">PERFORMANCE</a></li>
+                <li><a class="dropdown-item" href="" data-bs-toggle="modal" data-bs-target="#retroModal">RETRO</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -72,7 +72,6 @@
             <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">FREEPIG MOVEMENT</h5>
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
           </div>
-
           <div class="offcanvas-body">
             <ul id="ul-responsive" class="nav-mobile navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
@@ -81,10 +80,10 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"> SURFBOARD </a>
                 <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item" href="beginner.html">BEGINNER</a></li>
-                  <li><a class="dropdown-item" href="intermediate.html">INTERMEDIATE</a></li>
-                  <li><a class="dropdown-item" href="performance.html">PERFORMANCE</a></li>
-                  <li><a class="dropdown-item" href="retro.html">RETRO</a></li>
+                  <li><a class="dropdown-item" href="" data-bs-toggle="modal" data-bs-target="#beginnerModal">BEGINNER</a></li>
+                  <li><a class="dropdown-item" href="" data-bs-toggle="modal" data-bs-target="#intermediateModal">INTERMEDIATE</a></li>
+                  <li><a class="dropdown-item" href="" data-bs-toggle="modal" data-bs-target="#performanceModal">PERFORMANCE</a></li>
+                  <li><a class="dropdown-item" href="" data-bs-toggle="modal" data-bs-target="#retroModal">RETRO</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -205,31 +204,24 @@
       </div>
     </section>
     
-    <!-- MODAL  -->
+    <!-- MODAL BEGINNER  -->
     <div class="modal fade" id="beginnerModal" tabindex="-1"  aria-hidden="true">
       <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content">
-
           <div class="modal-header">
             <h2 class="modal-title " id="exampleModalLabel">BEGINNER</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-
           <div class="modal-body">
-
             <div class="row justify-content-center">
-
               <div class="col-xs-6 col-sm-3 my-1 modal-card " >
                 <a href="" data-bs-toggle="modal" data-bs-target="#beginnerMalibu"  class="card text-decoration-none text-dark">
                   <img src="img/thumbnail/Malibu.jpg" class="card-img-top " alt="..." />
                   <div class="card-body">
                     <h3 class="card-text text-center">Malibu</h3>
-
                   </div>
                 </a>
               </div>  
-           
-              
               <div class="col-xs-6 col-sm-3 my-1 modal-card" >
                 <a href="" data-bs-toggle="modal" data-bs-target="#beginnerFunboard" class="card text-decoration-none text-dark">
                   <img src="img/thumbnail/Funboard.jpg" class="card-img-top " alt="..." />
@@ -238,7 +230,6 @@
                   </div>
                 </a>
               </div>
-
               <div class="col-xs-6 col-sm-3 my-1 modal-card" >
                 <a href="" data-bs-toggle="modal" data-bs-target="#beginnerHorseRace" class="card text-decoration-none text-dark">
                   <img src="img/thumbnail/HorseRace.jpg" class="card-img-top " alt="..." />
@@ -247,88 +238,13 @@
                   </div>
                 </a>
               </div>
-              
             </div>
-
-          </div>
-         
-        </div>
-      </div>
-    </div>
-
-    <div class="modal fade" id="intermediateModal" tabindex="-1"  aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-
-          <div class="modal-header">
-            <h2 class="modal-title " id="exampleModalLabel">INTERMEDIATE</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-
-          <div class="modal-body">
-
-            <div class="row justify-content-center">
-
-              <div class="col-xs-6 col-sm-3 my-1" style="width: 9rem">
-                <a href="beginner/malibu.html" class="card text-decoration-none text-dark">
-                  <img src="img/thumbnail/Atomic.jpg" class="card-img-top " alt="..." />
-                  <div class="card-body">
-                    <h4 class="card-text text-center">Atomic</h4>
-                  </div>
-                </a>
-              </div>  
-
-              <div class="col-xs-6 col-sm-3 my-1" style="width: 9rem">
-                <a href="beginner/funboard.html" class="card text-decoration-none text-dark">
-                  <img src="img/thumbnail/BlackFlame.jpg" class="card-img-top " alt="..." />
-                  <div class="card-body">
-                    <h4 class="card-text text-center">Black Flame</h4>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-xs-6 col-sm-3 my-1" style="width: 9rem">
-                <a href="beginner/horse-race.html" class="card text-decoration-none text-dark">
-                  <img src="img/thumbnail/DoubleHook.jpg" class="card-img-top " alt="..." />
-                  <div class="card-body">
-                    <h4 class="card-text text-center">Double Hook</h4>
-                  </div>
-                </a>
-              </div>
-              <div class="col-xs-6 col-sm-3 my-1" style="width: 9rem">
-                <a href="beginner/horse-race.html" class="card text-decoration-none text-dark">
-                  <img src="img/thumbnail/Mahi-Mahi.jpg" class="card-img-top " alt="..." />
-                  <div class="card-body">
-                    <h4 class="card-text text-center">Mahi-Mahi</h4>
-                  </div>
-                </a>
-              </div>
-              <div class="col-xs-6 col-sm-3 my-1" style="width: 9rem">
-                <a href="beginner/horse-race.html" class="card text-decoration-none text-dark">
-                  <img src="img/thumbnail/Step3.jpg" class="card-img-top " alt="..." />
-                  <div class="card-body">
-                    <h4 class="card-text text-center">Step 3</h4>
-                  </div>
-                </a>
-              </div>
-              <div class="col-xs-6 col-sm-3 my-1" style="width: 9rem">
-                <a href="beginner/horse-race.html" class="card text-decoration-none text-dark">
-                  <img src="img/thumbnail/Hermes.jpg" class="card-img-top " alt="..." />
-                  <div class="card-body">
-                    <h4 class="card-text text-center">Hermes</h4>
-                  </div>
-                </a>
-              </div>
-              
-            </div>
-
           </div>
         </div>
       </div>
     </div>
-    <!-- MODALEND -->
-
- <!-- beginer/malibu -->
+    <!-- MODAL BEGINNER END -->
+    <!-- SECOND MODAL BEGINNER MALIBU-->
  <div class="modal fade" id="beginnerMalibu" aria-hidden="true"  tabindex="-1">
   <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
     <div class="modal-content">
@@ -390,34 +306,7 @@
           <div class="col-xs-12 col-lg-6">
             <h3>Dimension</h3>
             <table class="table table-bordered fs-5">
-              <thead>
-                <tr>
-                    <td>SIZE</td>
-                    <td>WIDTH</td>
-                    <td>THICKNESS</td>
-                    <td>VOLUME</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>8'0</td>
-                    <td>21</td>
-                    <td>2 3/8</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>9'0</td>
-                    <td>22 5/8</td>
-                    <td>2 13/16</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>9'1</td>
-                    <td>22 3/4</td>
-                    <td>2 13/16</td>
-                    <td>-</td>
-                </tr>
-            </tbody>
+              <thead><tr><td>SIZE</td><td>WIDTH</td><td>THICKNESS</td><td>VOLUME</td></tr></thead><tbody><tr><td>8'0</td><td>21</td><td>2 3/8</td><td>-</td></tr><tr><td>9'0</td><td>22 5/8</td><td>2 13/16</td><td>-</td></tr><tr><td>9'1</td><td>22 3/4</td><td>2 13/16</td><td>-</td></tr></tbody>
             </table>
           </div>
           <a class="fs-5 d-inline-flex" href="custom.html">Available Custom</a>
@@ -447,16 +336,13 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="img/surfboard/funboard/Funboard Slide Deck.jpg" class="d-block w-100" alt="...">
-                 
+                  <img src="img/surfboard/atomic/Atomic Slide Deck.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/surfboard/funboard/Funboard Slide Rail.jpg" class="d-block w-100" alt="...">
-                 
+                  <img src="img/surfboard/atomic/Atomic Slide Rail.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/surfboard/funboard/Funboard Slide Bottom.jpg" class="d-block w-100" alt="...">
-                 
+                  <img src="img/surfboard/atomic/Atomic Slide Bottom.jpg" class="d-block w-100" alt="...">
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -472,7 +358,7 @@
             <div class="row">
               <div class="col-xs-12 col-lg-6">
                 <h3>Description</h3>
-                <h5 class="fs-5" >FUNBOARD
+                <h5 class="fs-5" >
                   This is the board you will have the most fun on during your progression as a beginner and also as intermediate surfer. It also caters for the bigger body frame that needs extra foam to keep you in the water. The board has been designed for stability, comfort and ease. The dimensions vary in relation to the user but the main focus is on VOLUME to make the board buoyant so it's easy to paddle and pick up waves. The overall shape can be designed to the user specifications so whether you would like a mal nose or a retro nose or just somewhere in between that will be your choice to make!!</h5>
                   <table class="table table-borderless">
                     <tr>
@@ -492,52 +378,7 @@
               <div class="col-xs-12 col-lg-6">
                 <h3>Dimension</h3>
                 <table class="table table-bordered fs-5">
-                  <thead>
-                    <tr>
-                        <td>SIZE </td>
-                        <td>WIDTH </td>
-                        <td>THICKNESS </td>
-                        <td>VOLUME </td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>6'0"</td>
-                        <td>21 1/4"</td>
-                        <td>2 3/4"</td>
-                        <td>38.4L</td>
-                    </tr>
-                    <tr>
-                        <td>6'1"</td>
-                        <td>21 1/2"</td>
-                        <td>2 3/4"</td>
-                        <td>39.4L</td>
-                    </tr>
-                    <tr>
-                        <td>6'2"</td>
-                        <td>21 3/4"</td>
-                        <td>2 13/16"</td>
-                        <td>41.2L</td>
-                    </tr>
-                    <tr>
-                        <td>6'3"</td>
-                        <td>21 7/8</td>
-                        <td>2 13/16"</td>
-                        <td>42.1L</td>
-                    </tr>
-                    <tr>
-                        <td>6'4"</td>
-                        <td>22"</td>
-                        <td>2 7/8"</td>
-                        <td>43.8L</td>
-                    </tr>
-                    <tr>
-                        <td>6'6"</td>
-                        <td>22 1/8"</td>
-                        <td>3"</td>
-                        <td>47.2L</td>
-                    </tr>
-                </tbody>
+                  <thead><tr><td>SIZE </td><td>WIDTH </td><td>THICKNESS </td><td>VOLUME </td></tr></thead><tbody><tr><td>6'0"</td><td>21 1/4"</td><td>2 3/4"</td><td>38.4L</td></tr><tr><td>6'1"</td><td>21 1/2"</td><td>2 3/4"</td><td>39.4L</td></tr><tr><td>6'2"</td><td>21 3/4"</td><td>2 13/16"</td><td>41.2L</td></tr><tr><td>6'3"</td><td>21 7/8</td><td>2 13/16"</td><td>42.1L</td></tr><tr><td>6'4"</td><td>22"</td><td>2 7/8"</td><td>43.8L</td></tr><tr><td>6'6"</td><td>22 1/8"</td><td>3"</td><td>47.2L</td></tr></tbody>
                 </table>
               </div>
               <a class="fs-5" href="custom.html">Available Custom</a>
@@ -611,76 +452,7 @@
               <div class="col-xs-12 col-lg-6">
                 <h3>Dimension</h3>
                 <table class="table table-bordered fs-5">
-                  <thead>
-                    <tr>
-                        <td>SIZE</td>
-                        <td>WIDTH</td>
-                        <td>THICKNESS </td>
-                        <td>VOLUME</td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>5'9"</td>
-                        <td>21 1/2"</td>
-                        <td>2 9/16"</td>
-                        <td>36L</td>
-                    </tr>
-                    <tr>
-                        <td>5'10"</td>
-                        <td>21 3/4"</td>
-                        <td>2 5/8"</td>
-                        <td>28L</td>
-                    </tr>
-                    <tr>
-                        <td>5’10”</td>
-                        <td>21"</td>
-                        <td>2 1/2"</td>
-                        <td>35L</td>
-                    </tr>
-                    <tr>
-                        <td>5'11"</td>
-                        <td>22"</td>
-                        <td>2 11/16"</td>
-                        <td>40L</td>
-                    </tr>
-                    <tr>
-                        <td>6'0"</td>
-                        <td>22 1/4"</td>
-                        <td>2 3/4"</td>
-                        <td>41.8L</td>
-                    </tr>
-                    <tr>
-                        <td>6'0"</td>
-                        <td>21 1/2"</td>
-                        <td>2 5/8"</td>
-                        <td>38.5L</td>
-                    </tr>
-                    <tr>
-                        <td>6'1"</td>
-                        <td>22 1/2"</td>
-                        <td>2 3/4"</td>
-                        <td>43L</td>
-                    </tr>
-                    <tr>
-                        <td>6'2"</td>
-                        <td>22 1/2"</td>
-                        <td>2 13/16"</td>
-                        <td>44.3L</td>
-                    </tr>
-                    <tr>
-                        <td>6'3"</td>
-                        <td>22 5/8"</td>
-                        <td>2 13/16"</td>
-                        <td>45.5L</td>
-                    </tr>
-                    <tr>
-                        <td>6'4"</td>
-                        <td>22 3/4"</td>
-                        <td>2 13/16"</td>
-                        <td>46.5L</td>
-                    </tr>
-                </tbody>
+                  <thead><tr><td>SIZE</td><td>WIDTH</td><td>THICKNESS </td><td>VOLUME</td></tr></thead><tbody><tr><td>5'9"</td><td>21 1/2"</td><td>2 9/16"</td><td>36L</td></tr><tr><td>5'10"</td><td>21 3/4"</td><td>2 5/8"</td><td>28L</td></tr><tr><td>5’10”</td><td>21"</td><td>2 1/2"</td><td>35L</td></tr><tr><td>5'11"</td><td>22"</td><td>2 11/16"</td><td>40L</td></tr><tr><td>6'0"</td><td>22 1/4"</td><td>2 3/4"</td><td>41.8L</td></tr><tr><td>6'0"</td><td>21 1/2"</td><td>2 5/8"</td><td>38.5L</td></tr><tr><td>6'1"</td><td>22 1/2"</td><td>2 3/4"</td><td>43L</td></tr><tr><td>6'2"</td><td>22 1/2"</td><td>2 13/16"</td><td>44.3L</td></tr><tr><td>6'3"</td><td>22 5/8"</td><td>2 13/16"</td><td>45.5L</td></tr><tr><td>6'4"</td><td>22 3/4"</td><td>2 13/16"</td><td>46.5L</td></tr></tbody>
                 </table>
               </div>
               <a class="fs-5" href="custom.html">Available Custom</a>
@@ -693,6 +465,1094 @@
         </div>
       </div>
     </div>
+    <!-- BEGINNER SECOND MODAL END -->
+    <!-- MODAL INTERMEDIATE -->
+    <div class="modal fade" id="intermediateModal" tabindex="-1"  aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title " id="exampleModalLabel">INTERMEDIATE</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row justify-content-center">
+              <div class="col-xs-6 col-sm-3 my-1 modal-card " >
+                <a href="" data-bs-toggle="modal" data-bs-target="#intermediateAtomic"  class="card text-decoration-none text-dark">
+                  <img src="img/thumbnail/Atomic.jpg" class="card-img-top " alt="..." />
+                  <div class="card-body">
+                    <h4 class="card-text text-center">Atomic</h4>
+                  </div>
+                </a>
+              </div>  
+              <div class="col-xs-6 col-sm-3 my-1 modal-card" >
+                <a href="" data-bs-toggle="modal" data-bs-target="#intermediateBlackFlame" class="card text-decoration-none text-dark">
+                  <img src="img/thumbnail/BlackFlame.jpg" class="card-img-top " alt="..." />
+                  <div class="card-body">
+                    <h4 class="card-text text-center">Black Flame</h4>
+                  </div>
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-3 my-1 modal-card" >
+                <a href="" data-bs-toggle="modal" data-bs-target="#intermediateDoubleHook" class="card text-decoration-none text-dark">
+                  <img src="img/thumbnail/DoubleHook.jpg" class="card-img-top " alt="..." />
+                  <div class="card-body">
+                    <h4 class="card-text text-center">Double Hook</h4>
+                  </div>
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-3 my-1 modal-card " >
+                <a href="" data-bs-toggle="modal" data-bs-target="#intermediateMahiMahi"  class="card text-decoration-none text-dark">
+                  <img src="img/thumbnail/Mahi-Mahi.jpg" class="card-img-top " alt="..." />
+                  <div class="card-body">
+                    <h4 class="card-text text-center">Mahi-Mahi</h4>
+                  </div>
+                </a>
+              </div>  
+              <div class="col-xs-6 col-sm-3 my-1 modal-card" >
+                <a href="" data-bs-toggle="modal" data-bs-target="#intermediateHermes" class="card text-decoration-none text-dark">
+                  <img src="img/thumbnail/Hermes.jpg" class="card-img-top " alt="..." />
+                  <div class="card-body">
+                    <h4 class="card-text text-center">Hermes</h4>
+                  </div>
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-3 my-1 modal-card" >
+                <a href="" data-bs-toggle="modal" data-bs-target="#intermediateStep3" class="card text-decoration-none text-dark">
+                  <img src="img/thumbnail/Step3.jpg" class="card-img-top " alt="..." />
+                  <div class="card-body">
+                    <h4 class="card-text text-center">Step 3</h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL INTERMEDIATE END -->
+<!-- SECOND MODAL INTERMEDIATE -->
+    <!-- INTERMEDIATE/ATOMIC -->
+    <div class="modal fade" id="intermediateAtomic" aria-hidden="true"  tabindex="-1">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-3" id="exampleModalToggleLabelAtomic">ATOMIC</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="carouselExampleCaptionsAtomic" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptionsAtomic" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptionsAtomic" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptionsAtomic" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/surfboard/malibu/Malibu Slide Deck.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/surfboard/malibu/Malibu Slide Rail.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/surfboard/malibu/Malibu Slide Bottom.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptionsAtomic" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptionsAtomic" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          <br>
+            <div class="row">
+              <div class="col-xs-12 col-lg-6">
+                <h3>Description</h3>
+                <h5 class="fs-5" >
+                -</h5>
+                  <table class="table table-borderless">
+                    <tr>
+                      <td class="p-0 fs-5">Tail shape</td>
+                      <td class="p-0 fs-5">: Round squash / Round</td>
+                    </tr>
+                    <tr>
+                      <td class="p-0 fs-5">Fin layout</td>
+                      <td class="p-0 fs-5">: Single fin / Three</td>         
+                    </tr>
+                    <tr>
+                      <td class="p-0 fs-5">Plug system</td>
+                      <td class="p-0 fs-5">: Finbox / On Glass</td>
+                    </tr>
+                  </table>
+              </div>
+              <div class="col-xs-12 col-lg-6">
+                <h3>Dimension</h3>
+                <table class="table table-bordered fs-5">
+                  <thead><tr><td>SIZE</td><td>WIDTH</td><td>THICKNESS</td><td>VOLUME</td></tr></thead><tbody><tr><td>8'0</td><td>21</td><td>2 3/8</td><td>-</td></tr><tr><td>9'0</td><td>22 5/8</td><td>2 13/16</td><td>-</td></tr><tr><td>9'1</td><td>22 3/4</td><td>2 13/16</td><td>-</td></tr></tbody>
+                </table>
+              </div>
+              <a class="fs-5 d-inline-flex" href="custom.html">Available Custom</a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-dark fs-5" data-bs-target="#intermediateModal" data-bs-toggle="modal">Back</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- INTERMEDIATE/BLACK FLAME -->
+    <div class="modal fade" id="intermediateBlackFlame" aria-hidden="true"  tabindex="-1">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-3" id="exampleModalToggleLabelBlackFlame">BLACK FLAME</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="carouselExampleCaptionsBlackFlame" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptionsBlackFlame" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptionsBlackFlame" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptionsBlackFlame" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/surfboard/malibu/Malibu Slide Deck.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/surfboard/malibu/Malibu Slide Rail.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/surfboard/malibu/Malibu Slide Bottom.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptionsBlackFlame" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptionsBlackFlame" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          <br>
+            <div class="row">
+              <div class="col-xs-12 col-lg-6">
+                <h3>Description</h3>
+                <h5 class="fs-5" >
+                -</h5>
+                  <table class="table table-borderless">
+                    <tr>
+                      <td class="p-0 fs-5">Tail shape</td>
+                      <td class="p-0 fs-5">: Round squash / Round</td>
+                    </tr>
+                    <tr>
+                      <td class="p-0 fs-5">Fin layout</td>
+                      <td class="p-0 fs-5">: Single fin / Three</td>         
+                    </tr>
+                    <tr>
+                      <td class="p-0 fs-5">Plug system</td>
+                      <td class="p-0 fs-5">: Finbox / On Glass</td>
+                    </tr>
+                  </table>
+              </div>
+              <div class="col-xs-12 col-lg-6">
+                <h3>Dimension</h3>
+                <table class="table table-bordered fs-5">
+                  <thead><tr><td>SIZE</td><td>WIDTH</td><td>THICKNESS</td><td>VOLUME</td></tr></thead><tbody><tr><td>8'0</td><td>21</td><td>2 3/8</td><td>-</td></tr><tr><td>9'0</td><td>22 5/8</td><td>2 13/16</td><td>-</td></tr><tr><td>9'1</td><td>22 3/4</td><td>2 13/16</td><td>-</td></tr></tbody>
+                </table>
+              </div>
+              <a class="fs-5 d-inline-flex" href="custom.html">Available Custom</a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-dark fs-5" data-bs-target="#intermediateModal" data-bs-toggle="modal">Back</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- INTERMEDIATE/DOUBLE HOOK -->
+    <div class="modal fade" id="intermediateDoubleHook" aria-hidden="true"  tabindex="-1">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-3" id="exampleModalToggleLabelDoubleHook">DOUBLE HOOK</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="carouselExampleCaptionsAtomic" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptionsDoubleHook" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptionsDoubleHook" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptionsDoubleHook" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/surfboard/malibu/Malibu Slide Deck.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/surfboard/malibu/Malibu Slide Rail.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/surfboard/malibu/Malibu Slide Bottom.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptionsDoubleHook" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptionsDoubleHook" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          <br>
+            <div class="row">
+              <div class="col-xs-12 col-lg-6">
+                <h3>Description</h3>
+                <h5 class="fs-5" >
+                -</h5>
+                  <table class="table table-borderless">
+                    <tr>
+                      <td class="p-0 fs-5">Tail shape</td>
+                      <td class="p-0 fs-5">: Round squash / Round</td>
+                    </tr>
+                    <tr>
+                      <td class="p-0 fs-5">Fin layout</td>
+                      <td class="p-0 fs-5">: Single fin / Three</td>         
+                    </tr>
+                    <tr>
+                      <td class="p-0 fs-5">Plug system</td>
+                      <td class="p-0 fs-5">: Finbox / On Glass</td>
+                    </tr>
+                  </table>
+              </div>
+              <div class="col-xs-12 col-lg-6">
+                <h3>Dimension</h3>
+                <table class="table table-bordered fs-5">
+                  <thead><tr><td>SIZE</td><td>WIDTH</td><td>THICKNESS</td><td>VOLUME</td></tr></thead><tbody><tr><td>8'0</td><td>21</td><td>2 3/8</td><td>-</td></tr><tr><td>9'0</td><td>22 5/8</td><td>2 13/16</td><td>-</td></tr><tr><td>9'1</td><td>22 3/4</td><td>2 13/16</td><td>-</td></tr></tbody>
+                </table>
+              </div>
+              <a class="fs-5 d-inline-flex" href="custom.html">Available Custom</a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-dark fs-5" data-bs-target="#intermediateModal" data-bs-toggle="modal">Back</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    </div><!-- INTERMEDIATE/MAHI-MAHI -->
+    <div class="modal fade" id="intermediateMahiMahi" aria-hidden="true"  tabindex="-1">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-3" id="exampleModalToggleLabelMahiMahi">MAHI-MAHI</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="carouselExampleCaptionsAtomic" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptionsMahiMahi" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptionsMahiMahi" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptionsMahiMahi" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/surfboard/malibu/Malibu Slide Deck.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/surfboard/malibu/Malibu Slide Rail.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/surfboard/malibu/Malibu Slide Bottom.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptionsMahiMahi" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptionsMahiMahi" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          <br>
+            <div class="row">
+              <div class="col-xs-12 col-lg-6">
+                <h3>Description</h3>
+                <h5 class="fs-5" >
+                -</h5>
+                  <table class="table table-borderless">
+                    <tr>
+                      <td class="p-0 fs-5">Tail shape</td>
+                      <td class="p-0 fs-5">: Round squash / Round</td>
+                    </tr>
+                    <tr>
+                      <td class="p-0 fs-5">Fin layout</td>
+                      <td class="p-0 fs-5">: Single fin / Three</td>         
+                    </tr>
+                    <tr>
+                      <td class="p-0 fs-5">Plug system</td>
+                      <td class="p-0 fs-5">: Finbox / On Glass</td>
+                    </tr>
+                  </table>
+              </div>
+              <div class="col-xs-12 col-lg-6">
+                <h3>Dimension</h3>
+                <table class="table table-bordered fs-5">
+                  <thead><tr><td>SIZE</td><td>WIDTH</td><td>THICKNESS</td><td>VOLUME</td></tr></thead><tbody><tr><td>8'0</td><td>21</td><td>2 3/8</td><td>-</td></tr><tr><td>9'0</td><td>22 5/8</td><td>2 13/16</td><td>-</td></tr><tr><td>9'1</td><td>22 3/4</td><td>2 13/16</td><td>-</td></tr></tbody>
+                </table>
+              </div>
+              <a class="fs-5 d-inline-flex" href="custom.html">Available Custom</a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-dark fs-5" data-bs-target="#intermediateModal" data-bs-toggle="modal">Back</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- INTERMEDIATE/HERMES -->
+    <div class="modal fade" id="intermediateHermes" aria-hidden="true"  tabindex="-1">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-3" id="exampleModalToggleLabelHermes">HERMES</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="carouselExampleCaptionsAtomic" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptionsHermes" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptionsHermes" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptionsHermes" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/surfboard/malibu/Malibu Slide Deck.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/surfboard/malibu/Malibu Slide Rail.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/surfboard/malibu/Malibu Slide Bottom.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptionsHermes" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptionsHermes" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          <br>
+            <div class="row">
+              <div class="col-xs-12 col-lg-6">
+                <h3>Description</h3>
+                <h5 class="fs-5" >
+                -</h5>
+                  <table class="table table-borderless">
+                    <tr>
+                      <td class="p-0 fs-5">Tail shape</td>
+                      <td class="p-0 fs-5">: Round squash / Round</td>
+                    </tr>
+                    <tr>
+                      <td class="p-0 fs-5">Fin layout</td>
+                      <td class="p-0 fs-5">: Single fin / Three</td>         
+                    </tr>
+                    <tr>
+                      <td class="p-0 fs-5">Plug system</td>
+                      <td class="p-0 fs-5">: Finbox / On Glass</td>
+                    </tr>
+                  </table>
+              </div>
+              <div class="col-xs-12 col-lg-6">
+                <h3>Dimension</h3>
+                <table class="table table-bordered fs-5">
+                  <thead><tr><td>SIZE</td><td>WIDTH</td><td>THICKNESS</td><td>VOLUME</td></tr></thead><tbody><tr><td>8'0</td><td>21</td><td>2 3/8</td><td>-</td></tr><tr><td>9'0</td><td>22 5/8</td><td>2 13/16</td><td>-</td></tr><tr><td>9'1</td><td>22 3/4</td><td>2 13/16</td><td>-</td></tr></tbody>
+                </table>
+              </div>
+              <a class="fs-5 d-inline-flex" href="custom.html">Available Custom</a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-dark fs-5" data-bs-target="#intermediateModal" data-bs-toggle="modal">Back</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- INTERMEDIATE/STEP 3 -->
+    <div class="modal fade" id="intermediateStep3" aria-hidden="true"  tabindex="-1">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-3" id="exampleModalToggleLabelStep3">STEP 3</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="carouselExampleCaptionsAtomic" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptionsStep3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptionsStep3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptionsStep3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/surfboard/malibu/Malibu Slide Deck.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/surfboard/malibu/Malibu Slide Rail.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/surfboard/malibu/Malibu Slide Bottom.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptionsStep3" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptionsStep3" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          <br>
+            <div class="row">
+              <div class="col-xs-12 col-lg-6">
+                <h3>Description</h3>
+                <h5 class="fs-5" >
+                -</h5>
+                  <table class="table table-borderless">
+                    <tr>
+                      <td class="p-0 fs-5">Tail shape</td>
+                      <td class="p-0 fs-5">: Round squash / Round</td>
+                    </tr>
+                    <tr>
+                      <td class="p-0 fs-5">Fin layout</td>
+                      <td class="p-0 fs-5">: Single fin / Three</td>         
+                    </tr>
+                    <tr>
+                      <td class="p-0 fs-5">Plug system</td>
+                      <td class="p-0 fs-5">: Finbox / On Glass</td>
+                    </tr>
+                  </table>
+              </div>
+              <div class="col-xs-12 col-lg-6">
+                <h3>Dimension</h3>
+                <table class="table table-bordered fs-5">
+                  <thead><tr><td>SIZE</td><td>WIDTH</td><td>THICKNESS</td><td>VOLUME</td></tr></thead><tbody><tr><td>8'0</td><td>21</td><td>2 3/8</td><td>-</td></tr><tr><td>9'0</td><td>22 5/8</td><td>2 13/16</td><td>-</td></tr><tr><td>9'1</td><td>22 3/4</td><td>2 13/16</td><td>-</td></tr></tbody>
+                </table>
+              </div>
+              <a class="fs-5 d-inline-flex" href="custom.html">Available Custom</a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-dark fs-5" data-bs-target="#intermediateModal" data-bs-toggle="modal">Back</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECOND MODAL INTERMEDIATE END -->
+
+    <!-- PERFORMANCE MODAL -->
+    <div class="modal fade" id="performanceModal" tabindex="-1"  aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title " id="exampleModalLabel">PERFORMANCE</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row justify-content-center">
+              <div class="col-xs-6 col-sm-3 my-1 modal-card " >
+                <a href="" data-bs-toggle="modal" data-bs-target="#performanceClaim"  class="card text-decoration-none text-dark">
+                  <img src="img/thumbnail/Malibu.jpg" class="card-img-top " alt="..." />
+                  <div class="card-body">
+                    <h3 class="card-text text-center">Claim</h3>
+                  </div>
+                </a>
+              </div>  
+              <div class="col-xs-6 col-sm-3 my-1 modal-card" >
+                <a href="" data-bs-toggle="modal" data-bs-target="#performanceHummer" class="card text-decoration-none text-dark">
+                  <img src="img/thumbnail/Funboard.jpg" class="card-img-top " alt="..." />
+                  <div class="card-body">
+                    <h3 class="card-text text-center">Hummer</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-3 my-1 modal-card" >
+                <a href="" data-bs-toggle="modal" data-bs-target="#performanceKeris" class="card text-decoration-none text-dark">
+                  <img src="img/thumbnail/HorseRace.jpg" class="card-img-top " alt="..." />
+                  <div class="card-body">
+                    <h3 class="card-text text-center">Keris</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-3 my-1 modal-card" >
+                <a href="" data-bs-toggle="modal" data-bs-target="#performanceG45Series" class="card text-decoration-none text-dark">
+                  <img src="img/thumbnail/HorseRace.jpg" class="card-img-top " alt="..." />
+                  <div class="card-body">
+                    <h3 class="card-text text-center">G45 Series</h3>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- PERFORMANCE MODAL END -->
+<!-- performance/claim -->
+<div class="modal fade" id="performanceClaim" aria-hidden="true"  tabindex="-1">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-3" id="exampleModalToggleLabelClaim">CLAIM</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="carouselExampleCaptionsAtomic" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptionsClaim" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptionsClaim" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptionsClaim" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/surfboard/malibu/Malibu Slide Deck.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/surfboard/malibu/Malibu Slide Rail.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/surfboard/malibu/Malibu Slide Bottom.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptionsClaim" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptionsClaim" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      <br>
+        <div class="row">
+          <div class="col-xs-12 col-lg-6">
+            <h3>Description</h3>
+            <h5 class="fs-5" >
+            -</h5>
+              <table class="table table-borderless">
+                <tr>
+                  <td class="p-0 fs-5">Tail shape</td>
+                  <td class="p-0 fs-5">: Round squash / Round</td>
+                </tr>
+                <tr>
+                  <td class="p-0 fs-5">Fin layout</td>
+                  <td class="p-0 fs-5">: Single fin / Three</td>         
+                </tr>
+                <tr>
+                  <td class="p-0 fs-5">Plug system</td>
+                  <td class="p-0 fs-5">: Finbox / On Glass</td>
+                </tr>
+              </table>
+          </div>
+          <div class="col-xs-12 col-lg-6">
+            <h3>Dimension</h3>
+            <table class="table table-bordered fs-5">
+              <thead><tr><td>SIZE</td><td>WIDTH</td><td>THICKNESS</td><td>VOLUME</td></tr></thead><tbody><tr><td>8'0</td><td>21</td><td>2 3/8</td><td>-</td></tr><tr><td>9'0</td><td>22 5/8</td><td>2 13/16</td><td>-</td></tr><tr><td>9'1</td><td>22 3/4</td><td>2 13/16</td><td>-</td></tr></tbody>
+            </table>
+          </div>
+          <a class="fs-5 d-inline-flex" href="custom.html">Available Custom</a>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-dark fs-5" data-bs-target="#performanceModal" data-bs-toggle="modal">Back</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- performance/hummer -->
+<div class="modal fade" id="performanceHummer" aria-hidden="true"  tabindex="-1">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-3" id="exampleModalToggleLabelHummer">HUMMER</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="carouselExampleCaptionsAtomic" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptionsHummer" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptionsHummer" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptionsHummer" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/surfboard/malibu/Malibu Slide Deck.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/surfboard/malibu/Malibu Slide Rail.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/surfboard/malibu/Malibu Slide Bottom.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptionsHummer" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptionsHummer" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      <br>
+        <div class="row">
+          <div class="col-xs-12 col-lg-6">
+            <h3>Description</h3>
+            <h5 class="fs-5" >
+            -</h5>
+              <table class="table table-borderless">
+                <tr>
+                  <td class="p-0 fs-5">Tail shape</td>
+                  <td class="p-0 fs-5">: Round squash / Round</td>
+                </tr>
+                <tr>
+                  <td class="p-0 fs-5">Fin layout</td>
+                  <td class="p-0 fs-5">: Single fin / Three</td>         
+                </tr>
+                <tr>
+                  <td class="p-0 fs-5">Plug system</td>
+                  <td class="p-0 fs-5">: Finbox / On Glass</td>
+                </tr>
+              </table>
+          </div>
+          <div class="col-xs-12 col-lg-6">
+            <h3>Dimension</h3>
+            <table class="table table-bordered fs-5">
+              <thead><tr><td>SIZE</td><td>WIDTH</td><td>THICKNESS</td><td>VOLUME</td></tr></thead><tbody><tr><td>8'0</td><td>21</td><td>2 3/8</td><td>-</td></tr><tr><td>9'0</td><td>22 5/8</td><td>2 13/16</td><td>-</td></tr><tr><td>9'1</td><td>22 3/4</td><td>2 13/16</td><td>-</td></tr></tbody>
+            </table>
+          </div>
+          <a class="fs-5 d-inline-flex" href="custom.html">Available Custom</a>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-dark fs-5" data-bs-target="#performanceModal" data-bs-toggle="modal">Back</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- performance/keris -->
+<div class="modal fade" id="performanceKeris" aria-hidden="true"  tabindex="-1">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-3" id="exampleModalToggleLabelKeris">KERIS</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="carouselExampleCaptionsAtomic" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptionsKeris" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptionsKeris" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptionsKeris" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/surfboard/malibu/Malibu Slide Deck.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/surfboard/malibu/Malibu Slide Rail.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/surfboard/malibu/Malibu Slide Bottom.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptionsKeris" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptionsKeris" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      <br>
+        <div class="row">
+          <div class="col-xs-12 col-lg-6">
+            <h3>Description</h3>
+            <h5 class="fs-5" >
+            -</h5>
+              <table class="table table-borderless">
+                <tr>
+                  <td class="p-0 fs-5">Tail shape</td>
+                  <td class="p-0 fs-5">: Round squash / Round</td>
+                </tr>
+                <tr>
+                  <td class="p-0 fs-5">Fin layout</td>
+                  <td class="p-0 fs-5">: Single fin / Three</td>         
+                </tr>
+                <tr>
+                  <td class="p-0 fs-5">Plug system</td>
+                  <td class="p-0 fs-5">: Finbox / On Glass</td>
+                </tr>
+              </table>
+          </div>
+          <div class="col-xs-12 col-lg-6">
+            <h3>Dimension</h3>
+            <table class="table table-bordered fs-5">
+              <thead><tr><td>SIZE</td><td>WIDTH</td><td>THICKNESS</td><td>VOLUME</td></tr></thead><tbody><tr><td>8'0</td><td>21</td><td>2 3/8</td><td>-</td></tr><tr><td>9'0</td><td>22 5/8</td><td>2 13/16</td><td>-</td></tr><tr><td>9'1</td><td>22 3/4</td><td>2 13/16</td><td>-</td></tr></tbody>
+            </table>
+          </div>
+          <a class="fs-5 d-inline-flex" href="custom.html">Available Custom</a>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-dark fs-5" data-bs-target="#performanceModal" data-bs-toggle="modal">Back</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- performance/g45 series -->
+<div class="modal fade" id="performanceG45Series" aria-hidden="true"  tabindex="-1">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-3" id="exampleModalToggleLabelG45Series">G45 SERIES</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="carouselExampleCaptionsAtomic" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptionsG45Series" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptionsG45Series" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptionsG45Series" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/surfboard/malibu/Malibu Slide Deck.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/surfboard/malibu/Malibu Slide Rail.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/surfboard/malibu/Malibu Slide Bottom.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptionsG45Series" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptionsG45Series" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      <br>
+        <div class="row">
+          <div class="col-xs-12 col-lg-6">
+            <h3>Description</h3>
+            <h5 class="fs-5" >
+            -</h5>
+              <table class="table table-borderless">
+                <tr>
+                  <td class="p-0 fs-5">Tail shape</td>
+                  <td class="p-0 fs-5">: Round squash / Round</td>
+                </tr>
+                <tr>
+                  <td class="p-0 fs-5">Fin layout</td>
+                  <td class="p-0 fs-5">: Single fin / Three</td>         
+                </tr>
+                <tr>
+                  <td class="p-0 fs-5">Plug system</td>
+                  <td class="p-0 fs-5">: Finbox / On Glass</td>
+                </tr>
+              </table>
+          </div>
+          <div class="col-xs-12 col-lg-6">
+            <h3>Dimension</h3>
+            <table class="table table-bordered fs-5">
+              <thead><tr><td>SIZE</td><td>WIDTH</td><td>THICKNESS</td><td>VOLUME</td></tr></thead><tbody><tr><td>8'0</td><td>21</td><td>2 3/8</td><td>-</td></tr><tr><td>9'0</td><td>22 5/8</td><td>2 13/16</td><td>-</td></tr><tr><td>9'1</td><td>22 3/4</td><td>2 13/16</td><td>-</td></tr></tbody>
+            </table>
+          </div>
+          <a class="fs-5 d-inline-flex" href="custom.html">Available Custom</a>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-dark fs-5" data-bs-target="#performanceModal" data-bs-toggle="modal">Back</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- RETRO MODAL -->
+<div class="modal fade" id="retroModal" tabindex="-1"  aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title " id="exampleModalLabel">RETRO</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row justify-content-center">
+          <div class="col-xs-6 col-sm-3 my-1 modal-card " >
+            <a href="" data-bs-toggle="modal" data-bs-target="#retroTwinfin"  class="card text-decoration-none text-dark">
+              <img src="img/thumbnail/Malibu.jpg" class="card-img-top " alt="..." />
+              <div class="card-body">
+                <h3 class="card-text text-center">Twinfin</h3>
+              </div>
+            </a>
+          </div>  
+          <div class="col-xs-6 col-sm-3 my-1 modal-card" >
+            <a href="" data-bs-toggle="modal" data-bs-target="#retroLongboard" class="card text-decoration-none text-dark">
+              <img src="img/thumbnail/Funboard.jpg" class="card-img-top " alt="..." />
+              <div class="card-body">
+                <h3 class="card-text text-center">Longboard</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3 my-1 modal-card" >
+            <a href="" data-bs-toggle="modal" data-bs-target="#retroHyperActive" class="card text-decoration-none text-dark">
+              <img src="img/thumbnail/HorseRace.jpg" class="card-img-top " alt="..." />
+              <div class="card-body">
+                <h3 class="card-text text-center">Hyper Active</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- RETRO MODAL END -->
+   <!-- retro/twinfin -->
+   <div class="modal fade" id="retroTwinfin" aria-hidden="true"  tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-3" id="exampleModalToggleLabelTwinfin">TWINFIN</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div id="carouselExampleCaptionsAtomic" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptionsTwinfin" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptionsTwinfin" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptionsTwinfin" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/surfboard/malibu/Malibu Slide Deck.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/surfboard/malibu/Malibu Slide Rail.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/surfboard/malibu/Malibu Slide Bottom.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptionsTwinfin" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptionsTwinfin" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <br>
+          <div class="row">
+            <div class="col-xs-12 col-lg-6">
+              <h3>Description</h3>
+              <h5 class="fs-5" >
+              -</h5>
+                <table class="table table-borderless">
+                  <tr>
+                    <td class="p-0 fs-5">Tail shape</td>
+                    <td class="p-0 fs-5">: Round squash / Round</td>
+                  </tr>
+                  <tr>
+                    <td class="p-0 fs-5">Fin layout</td>
+                    <td class="p-0 fs-5">: Single fin / Three</td>         
+                  </tr>
+                  <tr>
+                    <td class="p-0 fs-5">Plug system</td>
+                    <td class="p-0 fs-5">: Finbox / On Glass</td>
+                  </tr>
+                </table>
+            </div>
+            <div class="col-xs-12 col-lg-6">
+              <h3>Dimension</h3>
+              <table class="table table-bordered fs-5">
+                <thead><tr><td>SIZE</td><td>WIDTH</td><td>THICKNESS</td><td>VOLUME</td></tr></thead><tbody><tr><td>8'0</td><td>21</td><td>2 3/8</td><td>-</td></tr><tr><td>9'0</td><td>22 5/8</td><td>2 13/16</td><td>-</td></tr><tr><td>9'1</td><td>22 3/4</td><td>2 13/16</td><td>-</td></tr></tbody>
+              </table>
+            </div>
+            <a class="fs-5 d-inline-flex" href="custom.html">Available Custom</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-dark fs-5" data-bs-target="#retroModal" data-bs-toggle="modal">Back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- retro/longboard -->
+   <div class="modal fade" id="retroLongboard" aria-hidden="true"  tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-3" id="exampleModalToggleLabelLongboard">LONGBOARD</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div id="carouselExampleCaptionsAtomic" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptionsLongboard" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptionsLongboard" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptionsLongboard" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/surfboard/malibu/Malibu Slide Deck.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/surfboard/malibu/Malibu Slide Rail.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/surfboard/malibu/Malibu Slide Bottom.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptionsLongboard" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptionsLongboard" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <br>
+          <div class="row">
+            <div class="col-xs-12 col-lg-6">
+              <h3>Description</h3>
+              <h5 class="fs-5" >
+              -</h5>
+                <table class="table table-borderless">
+                  <tr>
+                    <td class="p-0 fs-5">Tail shape</td>
+                    <td class="p-0 fs-5">: Round squash / Round</td>
+                  </tr>
+                  <tr>
+                    <td class="p-0 fs-5">Fin layout</td>
+                    <td class="p-0 fs-5">: Single fin / Three</td>         
+                  </tr>
+                  <tr>
+                    <td class="p-0 fs-5">Plug system</td>
+                    <td class="p-0 fs-5">: Finbox / On Glass</td>
+                  </tr>
+                </table>
+            </div>
+            <div class="col-xs-12 col-lg-6">
+              <h3>Dimension</h3>
+              <table class="table table-bordered fs-5">
+                <thead><tr><td>SIZE</td><td>WIDTH</td><td>THICKNESS</td><td>VOLUME</td></tr></thead><tbody><tr><td>8'0</td><td>21</td><td>2 3/8</td><td>-</td></tr><tr><td>9'0</td><td>22 5/8</td><td>2 13/16</td><td>-</td></tr><tr><td>9'1</td><td>22 3/4</td><td>2 13/16</td><td>-</td></tr></tbody>
+              </table>
+            </div>
+            <a class="fs-5 d-inline-flex" href="custom.html">Available Custom</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-dark fs-5" data-bs-target="#retroModal" data-bs-toggle="modal">Back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- retro/hyper active -->
+   <div class="modal fade" id="retroHyperActive" aria-hidden="true"  tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-3" id="exampleModalToggleLabelHyperActive">HYPER ACTIVE</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div id="carouselExampleCaptionsAtomic" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptionsHyperActive" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptionsHyperActive" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptionsHyperActive" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/surfboard/malibu/Malibu Slide Deck.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/surfboard/malibu/Malibu Slide Rail.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/surfboard/malibu/Malibu Slide Bottom.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptionsHyperActive" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptionsHyperActive" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <br>
+          <div class="row">
+            <div class="col-xs-12 col-lg-6">
+              <h3>Description</h3>
+              <h5 class="fs-5" >
+              -</h5>
+                <table class="table table-borderless">
+                  <tr>
+                    <td class="p-0 fs-5">Tail shape</td>
+                    <td class="p-0 fs-5">: Round squash / Round</td>
+                  </tr>
+                  <tr>
+                    <td class="p-0 fs-5">Fin layout</td>
+                    <td class="p-0 fs-5">: Single fin / Three</td>         
+                  </tr>
+                  <tr>
+                    <td class="p-0 fs-5">Plug system</td>
+                    <td class="p-0 fs-5">: Finbox / On Glass</td>
+                  </tr>
+                </table>
+            </div>
+            <div class="col-xs-12 col-lg-6">
+              <h3>Dimension</h3>
+              <table class="table table-bordered fs-5">
+                <thead><tr><td>SIZE</td><td>WIDTH</td><td>THICKNESS</td><td>VOLUME</td></tr></thead><tbody><tr><td>8'0</td><td>21</td><td>2 3/8</td><td>-</td></tr><tr><td>9'0</td><td>22 5/8</td><td>2 13/16</td><td>-</td></tr><tr><td>9'1</td><td>22 3/4</td><td>2 13/16</td><td>-</td></tr></tbody>
+              </table>
+            </div>
+            <a class="fs-5 d-inline-flex" href="custom.html">Available Custom</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-dark fs-5" data-bs-target="#retroModal" data-bs-toggle="modal">Back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- FOOTER -->
       <br><br>
     <footer class="bg-dark">
       <br />
