@@ -61,7 +61,3 @@ typeRange.oninput = function () {
   var volumeLiter = (count / 1000).toFixed(2);
   output.innerHTML = volumeLiter + " Liters";
 };
-
-// console.log(lengthRangeCM.value);
-// console.log(widthRangeCM.value);
-// console.log(thhicknessRangeCM.value);

@@ -19,10 +19,19 @@ a:hover {
   .modal-card {
     width: 9rem !important;
   }
+  .footer-content {
+    width: 11rem !important;
+  }
 }
 /* pc */
 @media screen and (min-width: 500px) {
   .menu-card {
     width: 13rem !important;
+  }
+  .footer-content-a {
+    padding-left: 8rem !important;
+  }
+  .footer-content-b {
+    padding-right: 7rem !important;
   }
 }
